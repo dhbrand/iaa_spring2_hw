@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en-us" xml:lang="en-us">
+<head>
+    <title>AA 503 (001) SPRG 2019: Day1 - Intro and Viz</title>
+    <link rel="shortcut icon" href="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/theme/1546442474/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, AA 503 (001) SPRG 2019: Day1 - Intro and Viz" />
+<link rel="stylesheet" type="text/css" href="https://moodle-courses1819.wolfware.ncsu.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle-courses1819.wolfware.ncsu.edu/theme/styles.php/ncsu/1546442474_1546446930/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle-courses1819.wolfware.ncsu.edu","sesskey":"g2WGSuBtbt","themerev":"1546442474","slasharguments":1,"theme":"ncsu","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1546442474","admin":"admin","svgicons":true,"usertimezone":"America\/New_York","contextid":1205812};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/theme\/yui_combo.php?m\/1546442474\/","combine":true,"comboBase":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/theme\/yui_combo.php?","ext":false,"root":"m\/1546442474\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_mobileapp-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_forumng-savecheck":{"requires":["base","node","io","moodle-core-notification-alert"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_poodll-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1546442474\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/javascript.php\/1546442474\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/javascript.php\/1546442474\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link href="https://cdn.ncsu.edu/brand-assets/fonts/include.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-folder-view" class="format-topics  path-mod path-mod-folder safari dir-ltr lang-en_us yui-skin-sam yui3-skin-sam moodle-courses1819-wolfware-ncsu-edu pagelayout-incourse course-5170 context-1205812 cmid-713749 category-13  blacktheme">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle-courses1819.wolfware.ncsu.edu/lib/javascript.php/1546442474/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <div data-region="drawer-toggle">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="https://moodle-courses1819.wolfware.ncsu.edu" class="navbar-brand has-logo
+                    ">
+                    <span class="logo hidden-xs-down">
+                        <img src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/theme/1546442474/2x1-brick" alt="Courses 2018-2019">
+                    </span>
+                <span class="site-name hidden-sm-down">Courses 2018-2019</span>
+            </a>
+    
+            <!-- user_menu -->
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="User menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu"><span class="userbutton"><span class="usertext">Dave Hiltbrand</span><span class="avatars"><span class="avatar current"><img src="https://secure.gravatar.com/avatar/f89d9f8c942e90558546985a85d8790b?s=35&amp;d=mm" alt="Picture of Dave Hiltbrand" title="Picture of Dave Hiltbrand" class="userpicture defaultuserpic" width="35" height="35" role="presentation" /></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br" id="dropdown-menu-1">
+            <a href="https://moodle-courses1819.wolfware.ncsu.edu/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i><span class="menu-action-text" id="actionmenuaction-1">Dashboard</span></a><div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div><a href="https://moodle-courses1819.wolfware.ncsu.edu/user/profile.php?id=109621" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-2">Profile</span></a><a href="https://moodle-courses1819.wolfware.ncsu.edu/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-3">Grades</span></a><a href="https://moodle-courses1819.wolfware.ncsu.edu/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i><span class="menu-action-text" id="actionmenuaction-4">Messages</span></a><a href="https://moodle-courses1819.wolfware.ncsu.edu/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-5">Preferences</span></a><div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div><a href="https://moodle-courses1819.wolfware.ncsu.edu/login/logout.php?sesskey=g2WGSuBtbt" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-6">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+    
+            <!-- navbar_plugin_output -->
+            <div class="popover-region collapsed popover-region-messages"
+    id="nav-message-popover-container" data-userid="109621"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-5c7d30b2a355f5c7d30b2a1f0a10"
+        aria-haspopup="true"
+        aria-label="Show message window with no new messages"
+        tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-5c7d30b2a355f5c7d30b2a1f0a10"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://moodle-courses1819.wolfware.ncsu.edu/message/index.php?contactsfirst=1">New message
+            </a>
+        </div>
+        <a class="mark-all-read-button"
+           href="#"
+           role="button"
+           title="Mark all as read"
+           data-action="mark-all-read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/y/loading" /></span>
+        </a>
+        <a href="https://moodle-courses1819.wolfware.ncsu.edu/message/edit.php?id=109621"
+           title="Message preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle-courses1819.wolfware.ncsu.edu/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="109621"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-5c7d30b2a41795c7d30b2a1f0a11"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-5c7d30b2a41795c7d30b2a1f0a11"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Mark all as read"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/y/loading" /></span>
+        </a>
+        <a href="https://moodle-courses1819.wolfware.ncsu.edu/message/notificationpreferences.php?userid=109621"
+           title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle-courses1819.wolfware.ncsu.edu/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+            
+            </span>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="page-context-header personalized_black"><div class="page-header-title"><h1></h1></div><div class="page-header-headings"><h1>AA 503 (001) Spring 2019 Analytics Methods and Applications II</h1></div></div><div class="clearfix" id="page-navbar"><div class="pull-xs-right context-header-settings-menu"></div><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://wolfware.ncsu.edu" >WolfWare</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle-courses1819.wolfware.ncsu.edu/my/" >Dashboard</a>
+                </li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170" title="AA 503 (001) Spring 2019 Analytics Methods and Applications II">AA 503 (001) SPRG 2019</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-5" > Social Network Analysis: Dr. Shaina Race</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749" title="Folder">Day1 - Intro and Viz</a>
+                </li>
+    </ol>
+</nav></div><div class="breadcrumb-button"></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <section id="region-main" >
+                    <div class="card card-block">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><h2>Day1 - Intro and Viz</h2><div id="intro" class="box generalbox p-y-1"><div class="no-overflow"><p>Day1 - Intro and Viz</p></div></div><div class="box generalbox foldertree p-y-1"><div id="folder_tree0" class="filemanager"><ul><li><div class="fp-filename-icon"><span class="fp-icon"><img class="icon " alt="" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/folder-24" /></span><span class="fp-filename"></span></div><ul><li><div class="fp-filename-icon"><span class="fp-icon"><img class="icon " alt="Day1" title="Day1" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/folder-24" /></span><span class="fp-filename">Day1</span></div><ul><li><span class="fp-filename-icon"><a href="https://moodle-courses1819.wolfware.ncsu.edu/pluginfile.php/1205812/mod_folder/content/0/Day1/slack.html?forcedownload=1"><span class="fp-icon"><img class="icon " alt="slack.html" title="slack.html" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/html-24" /></span><span class="fp-filename">slack.html</span></a></span></li><li><span class="fp-filename-icon"><a href="https://moodle-courses1819.wolfware.ncsu.edu/pluginfile.php/1205812/mod_folder/content/0/Day1/slack2019.gml?forcedownload=1"><span class="fp-icon"><img class="icon " alt="slack2019.gml" title="slack2019.gml" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/text-24" /></span><span class="fp-filename">slack2019.gml</span></a></span></li><li><span class="fp-filename-icon"><a href="https://moodle-courses1819.wolfware.ncsu.edu/pluginfile.php/1205812/mod_folder/content/0/Day1/SlackNetworkData2019.RData?forcedownload=1"><span class="fp-icon"><img class="icon " alt="SlackNetworkData2019.RData" title="SlackNetworkData2019.RData" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/unknown-24" /></span><span class="fp-filename">SlackNetworkData2019.RData</span></a></span></li><li><span class="fp-filename-icon"><a href="https://moodle-courses1819.wolfware.ncsu.edu/pluginfile.php/1205812/mod_folder/content/0/Day1/SNAIntro.pdf?forcedownload=1"><span class="fp-icon"><img class="icon " alt="SNAIntro.pdf" title="SNAIntro.pdf" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/pdf-24" /></span><span class="fp-filename">SNAIntro.pdf</span></a></span></li><li><span class="fp-filename-icon"><a href="https://moodle-courses1819.wolfware.ncsu.edu/pluginfile.php/1205812/mod_folder/content/0/Day1/vizBasics2.R?forcedownload=1"><span class="fp-icon"><img class="icon " alt="vizBasics2.R" title="vizBasics2.R" src="https://moodle-courses1819.wolfware.ncsu.edu/theme/image.php/ncsu/core/1546442474/f/unknown-24" /></span><span class="fp-filename">vizBasics2.R</span></a></span></li></ul></li></ul></li></ul></div></div><div class="box generalbox folderbuttons p-y-1"><div class="singlebutton">
+    <form method="post" action="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/download_folder.php" >
+            <input type="hidden" name="id" value="713749">
+            <input type="hidden" name="sesskey" value="g2WGSuBtbt">
+        <button type="submit" class="btn btn-secondary"
+            id="single_button5c7d30b2a1f0a16"
+            title=""
+            >Download folder</button>
+    </form>
+</div></div></div>
+                    <div class="m-t-2 m-b-1">
+<div class="row">
+    <div class="col-md-4">        <div class="pull-left">
+                <a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/forum/view.php?id=445155&forceview=1" id="prev-activity-link" class="btn btn-link"  title="Student Forum: Exploratory Data Analytics" >&#x25C0;&#xFE0E; Student Forum: Exploratory Data Analytics</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://moodle-courses1819.wolfware.ncsu.edu/course/jumpto.php" class="form-inline" id="url_select_f5c7d30b2a1f0a12">
+        <input type="hidden" name="sesskey" value="g2WGSuBtbt">
+            <label for="jump-to-activity" class="sr-only">
+                Jump to...
+            </label>
+        <select id="jump-to-activity"  id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected>Jump to...</option>
+                    <option value="/mod/forum/view.php?id=445118&amp;forceview=1" >Announcements</option>
+                    <option value="/mod/resource/view.php?id=445119&amp;forceview=1" >AA503 Syllabus</option>
+                    <option value="/mod/page/view.php?id=445120&amp;forceview=1" >Homework Teams</option>
+                    <option value="/mod/page/view.php?id=445121&amp;forceview=1" >Seating Charts</option>
+                    <option value="/mod/page/view.php?id=653453&amp;forceview=1" >Welcome Back Messages/Reminders</option>
+                    <option value="/mod/page/view.php?id=445124&amp;forceview=1" >Digital Experimentation Resources</option>
+                    <option value="/mod/page/view.php?id=445126&amp;forceview=1" >Bayesian Class Recordings</option>
+                    <option value="/mod/page/view.php?id=445131&amp;forceview=1" >Useful Features of Excel Recordings</option>
+                    <option value="/mod/page/view.php?id=445132&amp;forceview=1" >Optimization Webpage</option>
+                    <option value="/mod/forum/view.php?id=445134&amp;forceview=1" >Student Forum: Optimization</option>
+                    <option value="/mod/quiz/view.php?id=668430&amp;forceview=1" >Quiz 1 - Optimization</option>
+                    <option value="/mod/quiz/view.php?id=679001&amp;forceview=1" >Quiz 2 - Optimization</option>
+                    <option value="/mod/quiz/view.php?id=688532&amp;forceview=1" >Optimization Quiz 3</option>
+                    <option value="/mod/quiz/view.php?id=693825&amp;forceview=1" >Final Assessment - Optimization</option>
+                    <option value="/mod/page/view.php?id=707108&amp;forceview=1" >Financial Analytics Website</option>
+                    <option value="/mod/quiz/view.php?id=641344&amp;forceview=1" >Financial Analytics Quiz 1: Review of Lectures 1&amp;amp;2</option>
+                    <option value="/mod/quiz/view.php?id=641355&amp;forceview=1" >Financial Analytics Quiz 2: Review of Lectures 3&amp;amp;4</option>
+                    <option value="/mod/quiz/view.php?id=641366&amp;forceview=1" >Financial Analytics Quiz 3: Review of Lectures 5&amp;amp;6</option>
+                    <option value="/mod/quiz/view.php?id=641462&amp;forceview=1" >Financial Analytics Quiz 4: Review of Lectures 7&amp;amp;8</option>
+                    <option value="/mod/assign/view.php?id=641674&amp;forceview=1" >HW1 - Credit Scoring Model</option>
+                    <option value="/mod/assign/view.php?id=641750&amp;forceview=1" >HW2 - Portfolio Optimization</option>
+                    <option value="/mod/url/view.php?id=486595&amp;forceview=1" >GitHub - Dan Zaratsian</option>
+                    <option value="/mod/url/view.php?id=647199&amp;forceview=1" >Big Data Class Recordings</option>
+                    <option value="/mod/url/view.php?id=445153&amp;forceview=1" >Dr Wheeler&#039;s Design of Experiments webpage</option>
+                    <option value="/mod/page/view.php?id=445148&amp;forceview=1" >Legacy Materials - Design of Experiments</option>
+                    <option value="/mod/page/view.php?id=445154&amp;forceview=1" >Social Network Analysis</option>
+                    <option value="/mod/forum/view.php?id=445155&amp;forceview=1" >Student Forum: Exploratory Data Analytics</option>
+                    <option value="/mod/folder/view.php?id=713750&amp;forceview=1" >Day2 - Descriptive Stats</option>
+                    <option value="/mod/page/view.php?id=445162&amp;forceview=1" >Web Analytics resources page</option>
+                    <option value="/mod/assign/view.php?id=708440&amp;forceview=1" >Class One Assignment: Explore Site Tags</option>
+                    <option value="/mod/assign/view.php?id=708566&amp;forceview=1" >Class Two: Experience Strategy</option>
+                    <option value="/mod/assign/view.php?id=714598&amp;forceview=1" >Class Three Assignment: Design Sensitivities</option>
+                    <option value="/mod/page/view.php?id=445166&amp;forceview=1" >SAS VA Recordings</option>
+                    <option value="/mod/url/view.php?id=684434&amp;forceview=1" >SAS ML Data</option>
+                    <option value="/mod/url/view.php?id=445168&amp;forceview=1" >Certification Form (go.ncsu.edu/iaa_certifications)</option>
+                    <option value="/mod/url/view.php?id=606575&amp;forceview=1" >Base SAS Resources in AA502</option>
+                    <option value="/mod/page/view.php?id=445169&amp;forceview=1" >Business Analyst Resources</option>
+                    <option value="/mod/page/view.php?id=445170&amp;forceview=1" >Predictive Modeling (Data Mining) Resources</option>
+                    <option value="/mod/url/view.php?id=606569&amp;forceview=1" >Advanced Resources in AA502</option>
+                    <option value="/mod/url/view.php?id=445174&amp;forceview=1" >Advanced Certification Review 2015 Recording</option>
+                    <option value="/mod/page/view.php?id=445172&amp;forceview=1" >Macro Language</option>
+                    <option value="/mod/page/view.php?id=606552&amp;forceview=1" >Tableau Desktop Certification resources</option>
+                    <option value="/mod/quiz/view.php?id=659766&amp;forceview=1" >Tableau Desktop Specialist Quiz - Spring 2019</option>
+                    <option value="/mod/page/view.php?id=445145&amp;forceview=1" >Fraud Analytics Website</option>
+                    <option value="/mod/quiz/view.php?id=707147&amp;forceview=1" >Fraud Analytics Quiz 1: Review of Lecture 1</option>
+                    <option value="/mod/quiz/view.php?id=707148&amp;forceview=1" >Fraud Analytics Quiz 2: Review of Lecture 2</option>
+                    <option value="/mod/quiz/view.php?id=707149&amp;forceview=1" >Fraud Analytics Quiz 3: Review of Lecture 3</option>
+                    <option value="/mod/quiz/view.php?id=707150&amp;forceview=1" >Fraud Analytics Quiz 4: Review of Lecture 4</option>
+                    <option value="/mod/page/view.php?id=445183&amp;forceview=1" >Advanced Modeling Website</option>
+                    <option value="/mod/page/view.php?id=445187&amp;forceview=1" >Linear Algebra for Bracketology</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Go">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="pull-right">
+                <a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713750&forceview=1" id="next-activity-link" class="btn btn-link"  title="Day2 - Descriptive Stats" >Day2 - Descriptive Stats &#x25B6;&#xFE0E;</a>
+
+        </div>
+</div>
+</div>
+</div>
+                    
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        AA 503 (001) SPRG 2019
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/user/index.php?id=5170" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        Participants
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/grade/report/index.php?id=5170" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        Grades
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  current " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-0" data-key="136856" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">General</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-1" data-key="136857" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Optimization: Dr. Susan Simmons</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-2" data-key="136858" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Financial Analytics: Dr. Aric LaBarr</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-3" data-key="136862" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Big Data: Dan Zaratsian</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-4" data-key="136859" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Design of Experiments, Dr. Wheeler</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action font-weight-bold " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-5" data-key="136861" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body"> Social Network Analysis: Dr. Shaina Race</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-6" data-key="136863" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Digital Analytics</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-7" data-key="136864" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Programming : Dr. Chris Healey</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-8" data-key="136865" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Certification Resources</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-9" data-key="136866" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Fraud Detection Analytics</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-10" data-key="196774" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Deep Learning</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-11" data-key="136867" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Advanced Modeling Materials</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170#section-12" data-key="136869" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="5170">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Additional Resource Materials</span>
+                        </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action  " href="https://wolfware.ncsu.edu/" data-key="wolfware2" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        WolfWare
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        Dashboard
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                        Site home
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/calendar/view.php?view=month&amp;course=5170" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                        Calendar
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                        Private files
+                </div>
+            </a>
+            <div class="list-group-item " data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    My courses
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5171" data-key="5171" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        AA 505 (001) SPRG 2019
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170" data-key="5170" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        AA 503 (001) SPRG 2019
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=174" data-key="174" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        AA 504 (001) FALL 2018
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=173" data-key="173" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        AA 502 (001) FALL 2018
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=171" data-key="171" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        AA 500 SUM2 2018
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">You are logged in as <a href="https://moodle-courses1819.wolfware.ncsu.edu/user/profile.php?id=109621" title="View profile">Dave Hiltbrand</a> (<a href="https://moodle-courses1819.wolfware.ncsu.edu/login/logout.php?sesskey=g2WGSuBtbt">Log out</a>)</div>
+        <div class="tool_usertours-resettourcontainer"></div>
+        <div class="homelink"><a href="https://moodle-courses1819.wolfware.ncsu.edu/course/view.php?id=5170">AA 503 (001) SPRG 2019</a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                    <li><a href="#" title="Language">English - United States ‎(en_us)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=en_us" title="English - United States ‎(en_us)‎">English - United States ‎(en_us)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=es" title="Español - Internacional ‎(es)‎">Español - Internacional ‎(es)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=ur" title="اردو ‎(ur)‎">اردو ‎(ur)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=hi" title="हिंदी ‎(hi)‎">हिंदी ‎(hi)‎</a></li>
+                                                        <li><a href="https://moodle-courses1819.wolfware.ncsu.edu/mod/folder/view.php?id=713749&amp;lang=zh_cn" title="简体中文 ‎(zh_cn)‎">简体中文 ‎(zh_cn)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        <div class="tool_dataprivacy"><a href="https://moodle-courses1819.wolfware.ncsu.edu/admin/tool/dataprivacy/summary.php">Data retention summary</a></div><a href="https://delta.ncsu.edu/knowledgebase/using-the-moodle-mobile-app/?version=2017111306.06&amp;lang=en_us&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle-courses1819.wolfware.ncsu.edu/lib/requirejs.php/1546442474/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle-courses1819.wolfware.ncsu.edu/lib/javascript.php/1546442474/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://moodle-courses1819.wolfware.ncsu.edu/lib/javascript.php/1546442474/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle-courses1819.wolfware.ncsu.edu/lib/javascript.php/1546442474/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle-courses1819.wolfware.ncsu.edu/lib/javascript.php/1546442474/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle-courses1819.wolfware.ncsu.edu/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                $('#url_select_f5c7d30b2a1f0a12').submit();
+            });
+        });
+    ;
+
+require(['jquery'], function($) {
+    $('#single_select5c7d30b2a1f0a14').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5c7d30b2a1f0a13').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(1205812, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"mod_folder":{"name":"mod_folder","fullpath":"https:\/\/moodle-courses1819.wolfware.ncsu.edu\/lib\/javascript.php\/1546442474\/mod\/folder\/module.js","requires":[]}});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5c7d30b2a1f0a15'); Y.use('mod_folder', function(Y) { M.mod_folder.init_tree(Y, "folder_tree0", true);  M.util.js_complete('random5c7d30b2a1f0a15'); });
+ M.util.js_pending('random5c7d30b2a1f0a17'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c7d30b2a1f0a17'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>
